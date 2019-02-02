@@ -1,0 +1,9 @@
+.movieList {
+  background-color: lightgray;
+  padding: 10px
+}
+
+.movieItem {
+  background-color: white;
+  padding: 10px
+}
