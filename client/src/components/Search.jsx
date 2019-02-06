@@ -5,7 +5,7 @@ const SearchBar = (props) => {
     <div>
       <form>
         <input type="text" name="movieSearch" id="movieSearch"/>
-        <input type="submit" value="search" onClick={(e) => { e.persist(); props.searchTest(e); }} />
+        <input type="submit" value="Search" onClick={(e) => { e.persist(); props.searchTest(e); }} />
       </form>
     </div>
   )
